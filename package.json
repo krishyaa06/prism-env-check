@@ -1,0 +1,36 @@
+{
+  "name": "prism-env-check",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that validates .env against .env.example — missing keys, empty values, placeholders, and typed schema rules (url, port, enum, pattern) written as comments.",
+  "bin": {
+    "envcheck": "bin/envcheck.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "dotenv",
+    "env",
+    "environment-variables",
+    "config",
+    "validation",
+    "devtools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-env-check.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-env-check#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
